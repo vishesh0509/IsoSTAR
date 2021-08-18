@@ -1,0 +1,23 @@
+This paper gives an analysis and implementation to help the people who are handicapped and cannot
+drive their own vehicle. Thereby in future, they drive their own vehicle with a greater safety from
+sudden hit-and-run cases due to automatic braking or slow down feature. An Arduino interfacing with
+Bluetooth module is to provide the communication channel with device through which we will give the
+voice commands. For the circuitry, programmed Arduino will give the control over the motors that use
+to run therobotic vehicle. Ultrasonic sensors interfaced with the Arduino help in automatic slowdown or
+braking of a vehicle on sudden obstacle detection, and after a delay, it will help in the avoidance of the
+obstacle. In future, this concept might prove to be the milestone in vehicle automation, and for long￾
+distance range, Dual Tone Multi Frequency (DTMF) technology can be useful to control the vehicles on
+voice commands, remotely sitting at a single place.
+Keywords: Obstacle detection, Speech into text, Arduino, Bluetooth module, Ultrasonic sensors, DTMF
+_____________________________________________________________________________
+INTRODUCTION
+This proposal focuses in the problems faced by specially abled people who wish to drive to their own
+vechicle on their own but they cannot because of the natural cause. In this proposed project, the
+emphasis is on voice control of robot with automatic braking, speed slow down and avoidance of
+obstacles automatically or manually (through voicecommand).In this model, we will use an android app
+to pass on the voice commands to the Arduino through Bluetooth communication using Bluetooth
+module. Ultrasonic sensor will act as the obstacle detector, which will act as a mediator for Arduino
+microcontroller (or the CPU) and the proximal environment, and it would eventually lead to slowing
+down the vehicle or to fully break its motion. An LCD will display the proximity of the obstacle, and if the
+proximity would reach to a threshold limit, a buzzer will beep up through the processing of the
+programme that Arduino would do.
